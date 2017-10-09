@@ -4,6 +4,7 @@
  * Trigger Handler for the Account SObject. This class implements the InterfaceForTrigger
  * interface to help ensure the trigger code is bulkified and all in one place.
  */
+//Commenting on this file
 public with sharing class AccountTriggerHandler implements InterfaceForTrigger
 {   
     // Member variable to hold the Id's of Accounts 'in use'
