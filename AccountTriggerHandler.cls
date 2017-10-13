@@ -24,6 +24,9 @@ public with sharing class AccountTriggerHandler implements InterfaceForTrigger
     public boolean isTriggerContext{
         get { return blnTriggerIsExecuting;}
     }
+	public boolean isHeader{
+        get { return header=false;}
+    }
     
     public boolean isVisualforcePageContext{
         get { return !isTriggerContext;}
